@@ -28,4 +28,16 @@
   font-weight: 400;
   font-style: normal;
 }
+.menu-area{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menu-area > div{
+  margin: 0px 5px;
+}
+.menu-area > div:hover{
+  cursor: pointer;
+}
 
