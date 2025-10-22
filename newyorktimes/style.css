@@ -1,0 +1,21 @@
+.search-area{
+  margin-top: 5px;
+}
+#search-icon{
+  margin-right: 10px;
+}
+#search-input{
+  display: inline;
+  border: 1px solid rgb(202, 199, 199);
+  border-radius: 5px;
+  height: 33px;
+  margin-right: 3px;
+}
+#search-button{
+  display: inline;
+  background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    color: rgb(255, 255, 255);
+    height: 33px;
+    border-radius: 3px;
+}

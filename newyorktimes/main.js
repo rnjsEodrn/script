@@ -11,3 +11,21 @@ const getLatestNews = async () => {
 }
 
 getLatestNews();
+
+
+//search area
+let searchIcon = document.getElementById("search-icon");
+let searchInput = document.getElementById("search-input");
+let searchButton = document.getElementById("search-button");
+searchIcon.addEventListener("click", changeSearchArea);
+
+function changeSearchArea () {
+
+  if(searchInput.style.display === "none"){ 
+    searchInput.style.display = "inline";
+    searchButton.style.display = "inline";
+  } else {
+    searchInput.style.display = "none";
+    searchButton.style.display = "none";
+  }
+}
