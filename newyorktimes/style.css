@@ -1,21 +1,31 @@
-.search-area{
+.search-area {
   margin-top: 5px;
 }
-#search-icon{
+#search-icon {
   margin-right: 10px;
 }
-#search-input{
+#search-input {
   display: inline;
   border: 1px solid rgb(202, 199, 199);
   border-radius: 5px;
   height: 33px;
   margin-right: 3px;
 }
-#search-button{
+#search-button {
   display: inline;
   background-color: rgb(86, 123, 149);
-    border: 1px solid rgb(50, 104, 145);
-    color: rgb(255, 255, 255);
-    height: 33px;
-    border-radius: 3px;
+  border: 1px solid rgb(50, 104, 145);
+  color: rgb(255, 255, 255);
+  height: 33px;
+  border-radius: 3px;
 }
+.title-area {
+  text-align: center;
+  border-bottom: 1px solid rgb(202, 199, 199);
+}
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
